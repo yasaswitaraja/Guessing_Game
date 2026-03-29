@@ -1,6 +1,5 @@
 import streamlit as st
 import random
-
 # Initialize session state
 if "number" not in st.session_state:
     st.session_state.number = random.randint(1, 100)
